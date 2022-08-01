@@ -6,105 +6,115 @@
         <title>Welcome</title>
     </head>
     <body>
-        <header>
-            <nav>
-                <a href="">WebStudio</a>
-                <ul>
-                    <li>
-                        <a href="index.html">Studio</a>
+        <header >
+            <nav class="nav-container">
+                <a href="" class="nav-logo-text ">WebStudio</a>
+                <ul class="nav-links-list">
+                    <li class="nav-studio-link">
+                        <a class="nav-text" href="index.html">Studio</a>
                     </li>
-                    <li>
-                        <a href="">Portfolio</a>
+                    <li class="nav-links">
+                        <a class="nav-text" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li>
-                        <a href="https://google.com">Contacts</a>
+                    <li class="nav-links">
+                        <a class="nav-text" href="https://google.com">Contacts</a>
                     </li>
                 </ul>
             </nav>
-            <ul>
-                <li>
-                    <a href="https://google.com">info@devstudio.com</a>
+            <ul class="nav-right nav-links-list">
+                <li class="nav-links">
+                    <a href="https://google.com" class="nav-text ">info@devstudio.com</a>
                 </li>
-                <li>
-                    <a href="https://google.com">+38 096 111 11 11</a>
+                <li class="nav-links">
+                    <a href="https://google.com" class="nav-text nav-right-phone">+38 096 111 11 11</a>
                 </li>
             </ul>
         </header>
         <main>
            <section>
-               <div>
+               <div style="margin-top: 94px; text-align: center;">
                    <ul>
-                        <li>
-                            <button>All</button>
+                        <li >
+                            <button class="product-buttons">All</button>
                         </li>
                         <li>
-                            <button>Web-sites</button>
+                            <button class="product-buttons">Web-sites</button>
                         </li>
                         <li>
-                            <button>Apps</button>
+                            <button class="product-buttons">Apps</button>
                         </li>
                         <li>
-                            <button>Design</button>
+                            <button class="product-buttons">Design</button>
                         </li>
                         <li>
-                            <button>Marketing</button>
+                            <button class="product-buttons">Marketing</button>
                         </li>
                     </ul>       
                 </div>
            </section>
            <section>
-               <div>
-                   <ul>
-                       <img src="images/products/product1.jpg"/>
-                       <h3 class="product-title">Technoduck</h3>
-                       <P class="product-description">Web-Site</P>
-                   </ul>
-                   <ul>
-                    <img src="images/products/product2.jpg"/>
-                    <h3 class="product-title">Poster New Orleans vs Golden Star</h3>
-                    <P class="product-description">Design</P>
-                  </ul>
-                  <ul>
-                    <img src="images/products/product3.jpg"/>
-                    <h3 class="product-title">Seafood Restaurant</h3>
-                    <P class="product-description">Apps</P>
-                </ul>
-                <ul>
-                    <img src="images/products/product4.jpg"/>
-                    <h3>Project Prime</h3>
-                    <P class="product-description">Marketing</P>
-                </ul>
-                <ul>
-                    <img src="images/products/product5.jpg"/>
-                    <h3 class="product-title">Project Boxes</h3>
-                    <P class="product-description">Apps</P>
-                </ul>
-                <ul>
-                    <img src="images/products/product6.jpg"/>
-                    <h3 class="product-title">Inspiration has no Borders</h3>
-                    <P class="product-description">Web-Site</P>
-                </ul>
-                <ul>
-                    <img src="images/products/product7.jpg"/>
-                    <h3 class="product-title">Limited Edition</h3>
-                    <P class="product-description">Design</P>
-                </ul>
-                <ul>
-                    <img src="images/products/product8.jpg"/>
-                    <h3 class="product-title">Project LAB</h3>
-                    <P class="product-description">Marketing</P>
-                </ul>
-                <ul>
-                    <img src="images/products/product9.jpg"/>
-                    <h3 class="product-title">Growing Business</h3>
-                    <P class="product-description">Apps</P>
-                </ul>
+               <div class="product-card">
+                   <ul >
+                       <div class="product-card-num-one">
+                            <li >
+                                <img src="images/products/product1.jpg"/>
+                                <h3 class="product-title">Technoduck</h3>
+                                <P class="product-description">Web-Site</P>
+                                </li>
 
-               </div>
+                            <li >
+                                <img src="images/products/product2.jpg"/>
+                                <h3 class="product-title">Poster New Orleans vs Golden Star</h3>
+                                <P class="product-description">Design</P>
+                            </li>
+                            <li class="product-card">
+                                <img src="images/products/product3.jpg"/>
+                                <h3 class="product-title">Seafood Restaurant</h3>
+                                <P class="product-description">Apps</P>
+                            </li>
+                        </div>
+                        <div class="product-card-num-tow">
+                            <li>
+                                <img src="images/products/product4.jpg"/>
+                                <h3>Project Prime</h3>
+                                <P class="product-description">Marketing</P>
+                            </li>
+                       
+                            <li >
+                                <img src="images/products/product5.jpg"/>
+                                <h3 class="product-title">Project Boxes</h3>
+                                <P class="product-description">Apps</P>
+                            </li>
+                            <li >
+                                <img src="images/products/product6.jpg"/>
+                                <h3 class="product-title">Inspiration has no Borders</h3>
+                                <P class="product-description">Web-Site</P>
+                            </li>
+                        </div>
+                        <div class="product-card-num-three">
+                            <li >
+                                <img src="images/products/product7.jpg"/>
+                                <h3 class="product-title">Limited Edition</h3>
+                                <P class="product-description">Design</P>
+                            </li>
+                            <li >
+                                <img src="images/products/product8.jpg"/>
+                                <h3 class="product-title">Project LAB</h3>
+                                <P class="product-description">Marketing</P>
+                            </li>
+                            <li >
+                                <img src="images/products/product9.jpg"/>
+                                <h3 class="product-title">Growing Business</h3>
+                                <P class="product-description">Apps</P>
+                            </li>
+                        </div>
+                    </ul>
+
+                </div>
            </section>
         </main>
-        <footer>
-            <div>
+        <footer class="links">
+            <div class="footer-background" >
                 <a href="">WebStudio</a>
                 <address>
                     <ul>
