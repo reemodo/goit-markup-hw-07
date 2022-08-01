@@ -7,64 +7,66 @@
     </head>
     <body>
         <header>
-            <nav>
-                <a href="">WebStudio</a>
-                <ul>
-                    <li>
-                        <a href="">Studio</a>
+            <nav class="nav-container">
+                <a href="" class="nav-logo-text ">WebStudio</a>
+                <ul class="nav-links-list">
+                    <li class="nav-studio-link">
+                        <a class="nav-text" href="index.html">Studio</a>
                     </li>
-                    <li>
-                        <a href="portfolio.html">Portfolio</a>
+                    <li class="nav-links">
+                        <a class="nav-text" href="portfolio.html">Portfolio</a>
                     </li>
-                    <li>
-                        <a href="https://google.com">Contacts</a>
+                    <li class="nav-links">
+                        <a class="nav-text" href="https://google.com">Contacts</a>
                     </li>
                 </ul>
             </nav>
-            <ul>
-                <li>
-                    <a href="https://google.com">info@devstudio.com</a>
+            <ul class="nav-right nav-links-list">
+                <li class="nav-links">
+                    <a href="https://google.com" class="nav-text ">info@devstudio.com</a>
                 </li>
-                <li>
-                    <a href="https://google.com">+38 096 111 11 11</a>
+                <li class="nav-links">
+                    <a href="https://google.com" class="nav-text nav-right-phone">+38 096 111 11 11</a>
                 </li>
             </ul>
         </header>
         <main>
             <!--hero section-->
-            <section>
-                <h1>EFFECTIVE SOLUTIONS FOR <br/> YOUR BUSINESS</h1>
-                <button type="button">Request Our Service</button>
+            <section >
+                <div class="top-container top-container-content">
+                    <h1 class="top-container-text">EFFECTIVE SOLUTIONS FOR <br/> YOUR BUSINESS</h1>
+                    <button class="top-container-button" type="button">Request Our Service</button>
+                </div>
             </section>
            <!-- Services section -->
             <section> 
-                <div>
+                <div class="content-container">
                     <ul>
-                        <li>
-                            <h3>ATTENIION TO DETAILS</h3>
-                            <p>
+                        <li class="text-container">
+                            <h3 class="text-title">ATTENIION TO DETAILS</h3>
+                            <p class="text">
                                     We go into all the details and processes of your business 
                                     to develop a customized solution.
                             </p>
                         </li>
-                        <li>
-                            <h3>PUNCTUALITY</h3>
-                            <p>
+                        <li class="text-container">
+                            <h3 class="text-title">PUNCTUALITY</h3>
+                            <p class="text">
                                 With us, you can feel safe and secure. An important principle 
                                 of the company: respect your time and respect the agreed deadlines.
                             </p>
                         </li>
-                        <li>
-                            <h3>PLANNING</h3>
-                            <p>
+                        <li class="text-container">
+                            <h3 class="text-title">PLANNING</h3>
+                            <p class="text">
                                 You will be able to observe and participate in every phase of 
                                 solution development and implementation.
                             </p>
                         </li>
 
-                        <li>
-                            <h3>MODERN TECHNOLOGIES</h3>
-                            <p>
+                        <li class="text-container">
+                            <h3 class="text-title">MODERN TECHNOLOGIES</h3>
+                            <p class="text">
                                 We use innovative tools to solve assigned tasks. It's time to 
                                 simplify work processes.
                             </p>
@@ -75,16 +77,16 @@
             <!-- what we do image section-->
             <section>
                 <div>
-                    <h2>What we do</h2>
-                    <ul>
+                    <h2 class="title">What we do</h2>
+                    <ul class="container">
                         <li>
-                            <img src="images/wwd1.jpg" alt="what we do image 1" width="370" />
+                            <img src="images/wwd1.jpg" alt="what we do image 1" width="370" class="what-we-do-images"/>
                         </li>
                         <li>
-                            <img src="images/wwd2.jpg" alt="what we do image 2" width="370" />
+                            <img src="images/wwd2.jpg" alt="what we do image 2" width="370" class="what-we-do-images" />
                         </li>
                         <li>
-                            <img src="images/wwd3.jpg" alt="what we do image 3" width="370" />
+                            <img src="images/wwd3.jpg" alt="what we do image 3" width="370" class="what-we-do-images" />
                         </li>
                         
                     </ul>
@@ -92,50 +94,53 @@
             </section>
             <!-- our team section-->
             <section>
-                <div>
-                    <h2>Our Team</h2>
-                    <ul>
-                        <li>
+                <div class="our-team-container">
+                    <h2 class="title">Our Team</h2>
+                    <ul class="container">
+                        <li class="card">
                             <img src="images/Team/chrisw.jpg" alt="image of chrisw" width="270" />
-                            <h3>Christopher Walker</h3>
-                            <p>Proudect Designer</p>
+                            <h3 class="team-name">Christopher Walker</h3>
+                            <p class="team-title">Proudect Designer</p>
                         </li>
-                        <li>
+                        <li class="card">
                             <img src="images/Team/kyliee.jpg" alt="image of kyliee" width="270" />
-                            <h3>Kylie Evans</h3>
-                            <p>Frontend Developer</p>
+                            <h3 class="team-name">Kylie Evans</h3>
+                            <p class="team-title">Frontend Developer</p>
                         </li>
-                        <li>
+                        <li class="card">
                             <img src="images/Team/ryanh.jpg" alt="image of ryanh" width="270" />
-                            <h3>Rayan Harris</h3>
-                            <p>Marketing</p>
+                            <h3 class="team-name">Rayan Harris</h3>
+                            <p class="team-title">Marketing</p>
                         </li>
-                        <li>
+                        <li class="card">
                             <img src="images/Team/tylerm.jpg" alt="image of tylerm" width="270" />
-                            <h3>Tyler Moore</h3>
-                            <p>UI Designer</p>
+                            <h3 class="team-name">Tyler Moore</h3>
+                            <p class="team-title">UI Designer</p>
                         </li>
                     </ul>
                 </div>
             </section>
         </main>
-        <footer>
-            <div>
-                <a href="">WebStudio</a>
-                <address>
-                    <ul>
-                        <li>
-                            <a href="">695 Park Ave, New York, NY 10065, United States</a>
-                        </li>
-                        <li>
-                            <a href="">info@example.com</a>
-                        </li>
-                        <li>
-                            <a href=""> +1 212-772-4150</a>
-                        </li>
-                    </ul>
-                </address>
-            </div>
-        </footer>
+        <footer class="footer-background" >
+            <a href="" class="nav-logo-text">WebStudio</a>
+            <address >
+                <ul>
+                    <li>
+                        <a href=""  class="footer-address">695 Park Ave, New York, NY 10065, United States</a>
+                      
+                    </li>
+                    <li>
+               
+                        <a href="" class="footer-email-and-phone ">info@example.com</a>
+                        
+                    </li>
+                    <li>
+                       
+                        <a href="" class="footer-email-and-phone"> +1 212-772-4150</a>
+                        
+                    </li>
+                </ul>
+            </address>
+    </footer>
     </body>
 </html>
