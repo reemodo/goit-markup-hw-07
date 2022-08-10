@@ -81,6 +81,9 @@ address {
     padding: 32px 0px 31px 0px;
     display: block;
 }
+.nav-contats-links:hover, .nav-contats-links:focus{
+    color: #2196F3;
+}
 .nav-links {
     color:#212121;
     font-weight: 500;
