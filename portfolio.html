@@ -2,138 +2,161 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="CSS/styles.css">
         <title>Welcome</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>  
+        <link rel="stylesheet"  href="styles/styles.css"/>  
     </head>
     <body>
-        <header >
-            <nav class="nav-container">
-                <a href="" class="nav-logo-text ">WebStudio</a>
-                <ul class="nav-links-list">
-                    <li class="nav-studio-link">
-                        <a class="nav-text" href="index.html">Studio</a>
+        <header class="headerBorder">
+            <div class="container header-container">
+                <nav class="nav-container">
+                    <a href="" class="link nav-logo-text ">WebStudio</a>
+                    <ul class="list nav-links-list">
+                        <li class="nav-links-item">
+                            <a class=" link nav-links   " href="index.html">Studio</a>
+                        </li>
+                        <li class="nav-links-item">
+                            <a class="link nav-links nav-links-current" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-links-item">
+                            <a class=" link nav-links " href="https://google.com">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="list nav-contats">
+                    <li class="nav-links-item">
+                        <a href="https://google.com" class="link  nav-contats-links">info@devstudio.com</a>
                     </li>
-                    <li class="nav-links">
-                        <a class="nav-text" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-links">
-                        <a class="nav-text" href="https://google.com">Contacts</a>
+                    <li class="nav-links-item">
+                        <a href="https://google.com" class="link nav-contats-links">+38 096 111 11 11</a>
                     </li>
                 </ul>
-            </nav>
-            <ul class="nav-right nav-links-list">
-                <li class="nav-links">
-                    <a href="https://google.com" class="nav-text ">info@devstudio.com</a>
-                </li>
-                <li class="nav-links">
-                    <a href="https://google.com" class="nav-text nav-right-phone">+38 096 111 11 11</a>
-                </li>
-            </ul>
-            <div >
-                <hr class="nav-line" />
             </div>
         </header>
         <main>
-           <section>
-               <div style="margin-top: 94px; text-align: center;">
-                   <ul>
-                        <li >
-                            <button class="product-buttons">All</button>
+           <section class="section">
+               <div class="container ">
+                   <ul class="list filter">
+                        <li class="filter-item">
+                            <button type="button" class="filter-button filter-current">All</button>
                         </li>
-                        <li>
-                            <button class="product-buttons">Web-sites</button>
+                        <li class="filter-item">
+                            <button type="button" class="filter-button filter-current">Web-sites</button>
                         </li>
-                        <li>
-                            <button class="product-buttons">Apps</button>
+                        <li class="filter-item">
+                            <button type="button" class="filter-button filter-current">Apps</button>
                         </li>
-                        <li>
-                            <button class="product-buttons">Design</button>
+                        <li class="filter-item">
+                            <button type="button" class="filter-button filter-current">Design</button>
                         </li>
-                        <li>
-                            <button class="product-buttons">Marketing</button>
+                        <li class="filter-item">
+                            <button type="button" class="filter-button filter-current">Marketing</button>
                         </li>
-                    </ul>       
-                </div>
-           </section>
-           <section>
-               <div class="product-cards">
-                   <ul >
-                            <li class="product-card-container">
-                                <img src="images/products/product1.jpg"/>
+                    </ul>  
+                    <ul class="list products">
+                        <li class="product-item">
+                            <img src="images/products/product1.jpg"/>
+                            <div class="product-wrapper">
                                 <h3 class="product-title">Technoduck</h3>
                                 <P class="product-description">Web-Site</P>
-                                </li>
+                            </div>
+                            
+                            </li>
 
-                            <li class="product-card-container">
-                                <img src="images/products/product2.jpg"/>
+                        <li class="product-item">
+                            <img src="images/products/product2.jpg"/>
+                            <div class="product-wrapper">
                                 <h3 class="product-title">Poster New Orleans vs Golden Star</h3>
                                 <P class="product-description">Design</P>
-                            </li>
-                            <li class="product-card-container">
-                                <img src="images/products/product3.jpg"/>
+                            </div>
+                           
+                        </li>
+                        <li class="product-item">
+                            <img src="images/products/product3.jpg"/>
+                            <div class="product-wrapper">
                                 <h3 class="product-title">Seafood Restaurant</h3>
                                 <P class="product-description">Apps</P>
-                            </li>
-                    
-                            <li class="product-card-container">
-                                <img src="images/products/product4.jpg"/>
-                                <h3>Project Prime</h3>
+                            </div>
+                        </li>
+                
+                        <li class="product-item">
+                            <img src="images/products/product4.jpg"/>
+                            <div class="product-wrapper">
+                                <h3 class="product-title">Project Prime</h3>
                                 <P class="product-description">Marketing</P>
-                            </li >
-                       
-                            <li class="product-card-container">
-                                <img src="images/products/product5.jpg"/>
+                            </div>
+                        </li >
+                   
+                        <li class="product-item">
+                            <img src="images/products/product5.jpg"/>
+                            <div class="product-wrapper">
                                 <h3 class="product-title">Project Boxes</h3>
                                 <P class="product-description">Apps</P>
-                            </li>
-                            <li class="product-card-container">
-                                <img src="images/products/product6.jpg"/>
+                            </div>
+                            
+                        </li>
+                        <li class="product-item">
+                            <img src="images/products/product6.jpg"/>
+                            <div class="product-wrapper">
                                 <h3 class="product-title">Inspiration has no Borders</h3>
                                 <P class="product-description">Web-Site</P>
-                            </li>
-                   
-                     
-                            <li class="product-card-container">
-                                <img src="images/products/product7.jpg"/>
+                            </div>
+                        </li>
+               
+                 
+                        <li class="product-item">
+                            <img src="images/products/product7.jpg"/>
+                            <div class="product-wrapper">
                                 <h3 class="product-title">Limited Edition</h3>
                                 <P class="product-description">Design</P>
-                            </li>
-                            <li class="product-card-container">
-                                <img src="images/products/product8.jpg"/>
+                            </div>
+                            
+                        </li>
+                        <li class="product-item">
+                            <img src="images/products/product8.jpg"/>
+                            <div class="product-wrapper">
                                 <h3 class="product-title">Project LAB</h3>
                                 <P class="product-description">Marketing</P>
-                            </li>
-                            <li class="product-card-container">
-                                <img src="images/products/product9.jpg"/>
+                            </div>
+                            
+                        </li>
+                        <li class="product-item">
+                            <img src="images/products/product9.jpg"/>
+                            <div class="product-wrapper">
                                 <h3 class="product-title">Growing Business</h3>
                                 <P class="product-description">Apps</P>
-                            </li>
-                
-                    </ul>
-
+                            </div>
+                            
+                        </li>
+            
+                    </ul>     
                 </div>
+           
+               
            </section>
         </main>
-        <footer class="footer-background" >
-                <a href="" class="nav-logo-text">WebStudio</a>
+        <footer class="footer" >
+            <div class="container container-footer">
+                <a href="" class="link nav-logo-text">WebStudio</a>
                 <address >
-                    <ul>
+                    <ul class="list ">
                         <li>
-                            <a href=""  class="footer-address">695 Park Ave, New York, NY 10065, United States</a>
-                          
+                            <a href=""  class="link footer-contacts">695 Park Ave, New York, NY 10065,<br> United States</a>
+                        
                         </li>
                         <li>
-                   
-                            <a href="" class="footer-email-and-phone ">info@example.com</a>
+                
+                            <a href="" class="link footer-contacts ">info@example.com</a>
                             
                         </li>
                         <li>
-                           
-                            <a href="" class="footer-email-and-phone"> +1 212-772-4150</a>
+                        
+                            <a href="" class="link footer-contacts"> +1 212-772-4150</a>
                             
                         </li>
                     </ul>
                 </address>
+            </div>
         </footer>
     </body>
 </html>

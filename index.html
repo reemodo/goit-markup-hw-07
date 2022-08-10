@@ -2,48 +2,50 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="CSS/styles.css">
+        <link rel="stylesheet"  href="styles/styles.css"/>  
         <title>Welcome</title>
     </head>
     <body>
-        <header>
-            <nav class="nav-container">
-                <a href="" class="nav-logo-text ">WebStudio</a>
-                <ul class="nav-links-list">
-                    <li class="nav-studio-link">
-                        <a class="nav-text" href="index.html">Studio</a>
+        <header class="headerBorder">
+            <div class="container header-container">
+                <nav class="nav-container">
+                    <a href="" class="link nav-logo-text ">WebStudio</a>
+                    <ul class="list nav-links-list">
+                        <li class="nav-links-item">
+                            <a class=" link nav-links nav-links-current  " href="index.html">Studio</a>
+                        </li>
+                        <li class="nav-links-item">
+                            <a class="link nav-links  " href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-links-item">
+                            <a class=" link nav-links  " href="https://google.com">Contacts</a>
+                        </li>
+                    </ul>
+                </nav>
+                <ul class="list nav-contats">
+                    <li class="nav-links-item">
+                        <a href="https://google.com" class="link  nav-contats-links">info@devstudio.com</a>
                     </li>
-                    <li class="nav-links">
-                        <a class="nav-text" href="portfolio.html">Portfolio</a>
-                    </li>
-                    <li class="nav-links">
-                        <a class="nav-text" href="https://google.com">Contacts</a>
+                    <li class="nav-links-item">
+                        <a href="https://google.com" class="link nav-contats-links">+38 096 111 11 11</a>
                     </li>
                 </ul>
-            </nav>
-            <ul class="nav-right nav-links-list">
-                <li class="nav-links">
-                    <a href="https://google.com" class="nav-text ">info@devstudio.com</a>
-                </li>
-                <li class="nav-links">
-                    <a href="https://google.com" class="nav-text nav-right-phone">+38 096 111 11 11</a>
-                </li>
-            </ul>
+            </div>
         </header>
         <main>
             <!--hero section-->
-            <section >
-                <div class="top-container top-container-content">
-                    <h1 class="top-container-text">EFFECTIVE SOLUTIONS FOR <br/> YOUR BUSINESS</h1>
-                    <button class="top-container-button" type="button">Request Our Service</button>
+            <section class="hero">
+                <div class="container hero-container">
+                    <h1 class="hero-container-text">EFFECTIVE SOLUTIONS FOR <br/> YOUR BUSINESS</h1>
+                    <button class="hero-container-button" type="button">Request Our Service</button>
                 </div>
             </section>
            <!-- Services section -->
-            <section> 
-                <div class="content-container">
-                    <ul>
+            <section class="section"> 
+                <div class="container content-container">
+                    <ul class="list content-list">
                         <li class="text-container">
-                            <h3 class="text-title">ATTENIION TO DETAILS</h3>
+                            <h3 class="text-title">ATTENTION TO DETAILS</h3>
                             <p class="text">
                                     We go into all the details and processes of your business 
                                     to develop a customized solution.
@@ -75,17 +77,17 @@
                 </div>
             </section>
             <!-- what we do image section-->
-            <section>
-                <div>
+            <section class="section section-padding-top-zero">
+                <div class="container flex-container">
                     <h2 class="title">What we do</h2>
-                    <ul class="container">
-                        <li>
+                    <ul class="list what-we-do-lists">
+                        <li class="what-we-do-item">
                             <img src="images/wwd1.jpg" alt="what we do image 1" width="370" class="what-we-do-images"/>
                         </li>
-                        <li>
+                        <li class="what-we-do-item">
                             <img src="images/wwd2.jpg" alt="what we do image 2" width="370" class="what-we-do-images" />
                         </li>
-                        <li>
+                        <li class="what-we-do-item">
                             <img src="images/wwd3.jpg" alt="what we do image 3" width="370" class="what-we-do-images" />
                         </li>
                         
@@ -93,26 +95,26 @@
                 </div>
             </section>
             <!-- our team section-->
-            <section>
-                <div class="our-team-container">
+            <section class="section our-team-container ">
+                <div class="container flex-container">
                     <h2 class="title">Our Team</h2>
-                    <ul class="container">
-                        <li class="card">
+                    <ul class="list team-list">
+                        <li class="team-item">
                             <img src="images/Team/chrisw.jpg" alt="image of chrisw" width="270" />
                             <h3 class="team-name">Christopher Walker</h3>
                             <p class="team-title">Proudect Designer</p>
                         </li>
-                        <li class="card">
+                        <li class="team-item">
                             <img src="images/Team/kyliee.jpg" alt="image of kyliee" width="270" />
                             <h3 class="team-name">Kylie Evans</h3>
                             <p class="team-title">Frontend Developer</p>
                         </li>
-                        <li class="card">
+                        <li class="team-item">
                             <img src="images/Team/ryanh.jpg" alt="image of ryanh" width="270" />
                             <h3 class="team-name">Rayan Harris</h3>
                             <p class="team-title">Marketing</p>
                         </li>
-                        <li class="card">
+                        <li class="team-item">
                             <img src="images/Team/tylerm.jpg" alt="image of tylerm" width="270" />
                             <h3 class="team-name">Tyler Moore</h3>
                             <p class="team-title">UI Designer</p>
@@ -121,26 +123,28 @@
                 </div>
             </section>
         </main>
-        <footer class="footer-background" >
-            <a href="" class="nav-logo-text">WebStudio</a>
-            <address >
-                <ul>
-                    <li>
-                        <a href=""  class="footer-address">695 Park Ave, New York, NY 10065, United States</a>
-                      
-                    </li>
-                    <li>
-               
-                        <a href="" class="footer-email-and-phone ">info@example.com</a>
+        <footer class="footer" >
+            <div class="container container-footer">
+                <a href="" class="link nav-logo-text">WebStudio</a>
+                <address >
+                    <ul class="list ">
+                        <li>
+                            <a href=""  class="link footer-contacts">695 Park Ave, New York, NY 10065,<br> United States</a>
                         
-                    </li>
-                    <li>
-                       
-                        <a href="" class="footer-email-and-phone"> +1 212-772-4150</a>
+                        </li>
+                        <li>
+                
+                            <a href="" class="link footer-contacts ">info@example.com</a>
+                            
+                        </li>
+                        <li>
                         
-                    </li>
-                </ul>
-            </address>
-    </footer>
+                            <a href="" class="link footer-contacts"> +1 212-772-4150</a>
+                            
+                        </li>
+                    </ul>
+                </address>
+            </div>
+        </footer>
     </body>
 </html>

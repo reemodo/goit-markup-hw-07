@@ -1,82 +1,90 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap|family=Raleway:wght@700&display=swap");
+h1,h2,h3,h4,h5,h6,p { margin: 0;}
+html { 
+    box-sizing: border-box;
+}
+*,*::after,*::before { 
+    box-sizing: inherit;
+}
 body{
     margin: 0;
     font-family: "Roboto", sans-serif;
-    color : black ;
+    color : rgb(14, 13, 13) ;
+    font-size: 14px;
+    font-style: normal;
 }
-
-ul {
-    list-style-type: none;
+img { 
+    display: block;
+    max-width: 100%; 
+    height: auto;
+}
+address { 
+    font-style: normal;
+}
+.link { 
+    text-decoration: none; 
+    color: inherit;
+}
+.list { 
+    list-style: 
+    none; padding: 0; 
     margin: 0;
-    padding: 0;
-    overflow: hidden;
 }
-li {
-    float: left;
+.headerBorder {
+    border-bottom: 1px solid #ECECEC;
+}
+.container{
+    width : 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+.header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .active{
     color: #2196F3;
 }
+
 .nav-container {
-    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
-.nav-links-list {
-    padding-top: 18px;
-    padding-bottom: 18px;
+.nav-links-list{
+    margin-left: 100px;
 }
 .nav-logo-text { 
     font-family: "Raleway";
     color: #2196F3;
-    text-decoration: none;
-    margin-left: 215px;
     font-size: 26px;
     font-weight: 700;
     line-height: 31px;
     letter-spacing: 0.03em;
 }
-.nav-studio-link {
-    display: block;
-    text-align: center;
-    padding: 8px;
-    font-size: 14px;
-    padding-left: 93px;
-  }
+.nav-links-item:not(:last-child){
+    margin-right: 60px;
+}
 .nav-links {
-    display: block;
-    text-align: center;
-    padding: 8px;
-    font-size: 14px;
-    padding-left: 44px;
-}
-.nav-links-right {
-    padding-left: 22px;
-}
-.nav-right {
-    padding-top: 0;
-    float: right;
-    padding-right: 12px;
-}
-.nav-right-phone {
-    margin-right: 225px;
-}
-.nav-text {
-    color: black;
+    color:#212121;
+    font-weight: 500;
     text-decoration: none;
+  
 }
 
+.nav-text-phone-and-mail{
+    font-weight: 500;
+    color: #757575;
+}
 .nav-text:hover,
 .nav-text:focus {
   color: #2196f3;
 }
 
-.nav-line{
-    
-    border: 1px solid #ECECEC;
-    padding: 0 12px;
-   
-}
 .top-container{
     width: 100%;
     background-color: #2f303a;
@@ -89,8 +97,7 @@ li {
 .top-container-text {
     padding-top: 200px;
     color: white;
-    font-family: 'Roboto';
-    font-style: normal;
+   
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -116,7 +123,6 @@ li {
 }
 .text-title {
     font-weight: 700;
-    font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase
@@ -124,7 +130,6 @@ li {
 .text {
     
     font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
 
     letter-spacing: 0.03em;
@@ -170,8 +175,6 @@ li {
     letter-spacing: 0.03em;
 }
 .team-title{
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -203,8 +206,7 @@ li {
     border: 1px solid #EEEEEE;
 }
 .product-title{
-    font-family: 'Roboto';
-    font-style: normal;
+    
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -213,7 +215,7 @@ li {
     
 }
 .product-description{
-    font-family: 'Roboto';
+    
     font-size: 16px;
     color: #757575;
     line-height: 30px;
@@ -241,7 +243,6 @@ li {
 .footer-address{
     color: white; 
     line-height: 24px; 
-    font-style: normal;
     margin-left: 215px;
 }
 
@@ -249,7 +250,6 @@ li {
 .footer-email-and-phone{
     color: rgba(255, 255, 255, 0.6); 
     line-height: 24px; 
-    font-style: normal;
     margin-left: 215px;
     
  
@@ -260,6 +260,3 @@ address li{
     padding: 0;
 }
 
-a{
-    text-decoration: none;
-}
