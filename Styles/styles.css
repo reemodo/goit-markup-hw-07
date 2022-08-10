@@ -64,7 +64,7 @@ address {
     line-height: 31px;
     letter-spacing: 0.03em;
     display: block;
-    margin-bottom: 10px;
+    
 }
 .nav-links-item:not(:last-child){
     margin-right: 60px;
