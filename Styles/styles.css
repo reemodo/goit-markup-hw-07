@@ -137,7 +137,7 @@ address {
     cursor: pointer;
    
 }
-.hero-container-button:hover, .hero-container-button:foucse{
+.hero-container-button:hover, .hero-container-button:focus{
     background-color:#188CE8;
 }
 .section{
