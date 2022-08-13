@@ -104,7 +104,7 @@ address {
 
 .hero{
     padding: 200px 0 200px 0px;
-    background-color: #2f303a;
+    background-image: url(../images/backgorund.jpg);
 }
 
 .hero-container{
