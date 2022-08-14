@@ -14,10 +14,12 @@ body{
     font-style: normal;
     font-weight: 400
 }
+.contact-icons:hover , .contact-icons:focus{
+    fill: #2196F3;
+
+}
 .contact-icons{
     margin-right: 10px ;
-    width: 16px;
-    height:16px; 
 }
 img { 
     display: block;
