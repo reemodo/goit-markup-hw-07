@@ -88,6 +88,9 @@ address {
 }
 .nav-contats-links:hover, .nav-contats-links:focus{
     color: #2196F3;
+    
+}
+.nav-contats-links:hover svg, .nav-contats-links:focus svg{
     fill:#2196F3;
 }
 .nav-links {
