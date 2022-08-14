@@ -14,9 +14,7 @@ body{
     font-style: normal;
     font-weight: 400
 }
-.contact-icons:hover{
-    fill:#2196F3;
-}
+
 .contact-icons{
     fill:#757575;
     margin-right: 10px ;
@@ -90,6 +88,7 @@ address {
 }
 .nav-contats-links:hover, .nav-contats-links:focus{
     color: #2196F3;
+    fill:#2196F3;
 }
 .nav-links {
     color:#212121;
