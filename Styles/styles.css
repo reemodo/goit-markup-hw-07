@@ -245,9 +245,9 @@ address {
 .socil-icons-list{
     display: flex;
     flex-direction: column;
-    
+    margin: 30px auto;
 }
-.socil-icons-list.team-item:not(:last-child){
+.socil-icon:not(:last-child){
     margin-right: 10px;
 }
 .product-title{
