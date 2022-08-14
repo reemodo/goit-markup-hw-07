@@ -231,7 +231,7 @@ address {
  
 }
 .team-title{
-    margin: 0px;
+    margin-bottom: 16px;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
@@ -242,7 +242,14 @@ address {
     margin-bottom: 30px;
 }
 
-
+.socil-icons-list{
+    display: flex;
+    flex-direction: column;
+    
+}
+.socil-icons-list.team-item:not(:last-child){
+    margin-right: 10px;
+}
 .product-title{
     margin: 0px;
     font-weight: 700;
