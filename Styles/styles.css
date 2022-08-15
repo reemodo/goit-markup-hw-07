@@ -408,3 +408,9 @@ address {
     border-radius: 4%;
     background: rgba(255, 255, 255, 0.1);
 }
+.regular-custumers-link svg{
+    color: currentColor;
+}
+.regular-custumers-link :hover{
+    color: #2196F3;
+}
