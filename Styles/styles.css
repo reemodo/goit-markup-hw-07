@@ -418,7 +418,7 @@ address {
 .service-icon{
     width: 70px;
     height: 70px;
-    padding: 200px 50px;
+    padding: 50px 200px ;
     background: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
