@@ -296,7 +296,7 @@ address {
 }
 .container-footer{
     display: flex;
-    flex-direction: column;
+    
 }
 .footer-contacts:hover , .footer-contacts:focus{
     color: white;
