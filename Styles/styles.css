@@ -247,12 +247,16 @@ address {
     flex-direction: column;
     margin:  auto 30px;
 }
-.socil.item{
-    border-radius: 100%;
+.socil-icon-link{
+    color: inherit;
     width: 44px;
     height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
 }
-.socil-item:hover{
+.socil-icon-link:hover{
     fill: white;
     background-color: #2196F3;
 }
