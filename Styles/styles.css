@@ -247,12 +247,22 @@ address {
     flex-direction: column;
     margin:  auto 30px;
 }
+.socil.item{
+    border-radius: 100%;
+    width: 44px;
+    height: 44px;
+}
+.socil-item:hover{
+    fill: white;
+    background-color: #2196F3;
+}
 .socil-icon:not(:last-child){
     margin-right: 10px;
+    width: 44;
+    height: 44;
+    fill : #AFB1B8
 }
-.socil-icon:hover{
-    color: #188CE8;
-}
+
 .product-title{
     margin: 0px;
     font-weight: 700;
