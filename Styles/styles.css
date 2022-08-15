@@ -411,6 +411,7 @@ address {
 .regular-custumers-link svg{
     color: currentColor;
 }
-.regular-custumers-link :hover{
+.regular-custumers-link :hover,.regular-custumers-link :focus {
     color: #2196F3;
+    border-color: #2196F3;
 }
