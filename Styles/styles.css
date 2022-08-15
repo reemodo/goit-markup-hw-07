@@ -409,7 +409,7 @@ address {
     background: rgba(255, 255, 255, 0.1);
 }
 .regular-customers-link svg{
-    color: currentColor;
+    fill: currentColor;
 }
 .regular-customers:hover,.regular-customers:focus {
     color: #2196F3;
