@@ -258,9 +258,7 @@ address {
 }
 .socil-icon:not(:last-child){
     margin-right: 10px;
-    width: 44;
-    height: 44;
-    fill : #AFB1B8
+    
 }
 
 .product-title{
