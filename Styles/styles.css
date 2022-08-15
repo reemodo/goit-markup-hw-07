@@ -255,6 +255,7 @@ address {
     align-items: center;
     justify-content: center;
     border-radius: 100%;
+    fill:#AFB1B8;
 }
 .socil-icon-link:hover{
     background-color: #2196F3;
