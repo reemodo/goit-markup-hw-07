@@ -246,6 +246,9 @@ address {
     display: flex;
     margin:  auto 30px;
 }
+.socil-icon-link svg{
+    fill: currentColor;
+}
 .socil-icon-link{
     color: inherit;
     width: 44px;
@@ -254,14 +257,13 @@ address {
     align-items: center;
     justify-content: center;
     border-radius: 100%;
-    fill:#AFB1B8;
+  
 }
 .socil-icon-link:hover{
     background-color: #2196F3;
+    color:white;
 }
-.socil-icon-link:hover svg, .socil-icon-link:focus svg{
-    fill: white;
-}
+
 .socil-icon:not(:last-child){
     margin-right: 10px;
     
