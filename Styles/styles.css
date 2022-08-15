@@ -319,8 +319,6 @@ address {
 }
 .find-us-icons-list{
     display: flex;
-    
-   
 }
 
 .find-us-icon-link svg{
@@ -338,7 +336,7 @@ address {
 }
 .find-us-icon-link:hover{
     background-color: #2196F3;
-    color:white;
+  
 }
 
 .find-us-icon:not(:last-child){
