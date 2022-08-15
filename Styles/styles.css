@@ -311,6 +311,10 @@ address {
 }
 .find-us-text{
     color:white;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     margin-bottom: 20px;
 }
 .find-us-icons-list{
