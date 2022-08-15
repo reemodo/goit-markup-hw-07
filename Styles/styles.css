@@ -296,7 +296,11 @@ address {
 }
 .container-footer{
     display: flex;
+    justify-content: left;
     
+}
+.footer-items{
+    margin-right: 70px;;
 }
 .footer-contacts:hover , .footer-contacts:focus{
     color: white;
@@ -305,7 +309,38 @@ address {
     color: rgba(255, 255, 255, 0.6); 
     line-height: 24px;
 }
+.find-us-text{
+    color:white;
+    margin-bottom: 20px;
+}
+.find-us-icons-list{
+    display: flex;
+    
+   
+}
 
+.find-us-link svg{
+    fill: currentColor;
+}
+.find-us-icon-link{
+    color:white;
+    width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    background: rgba(255, 255, 255, 0.1);
+}
+.find-us-icon-link:hover{
+    background-color: #2196F3;
+    color:white;
+}
+
+.find-us-icon:not(:last-child){
+    margin-right: 10px;
+    
+}
 .filter-item:not(:last-child){
     margin-right:10px;
 }
