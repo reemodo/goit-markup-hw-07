@@ -390,3 +390,21 @@ address {
 .section-regular-custumers{
     margin: 94px auto;
 }
+.regular-custumers-list{
+    display: flex;
+
+}
+.regular-custumers-item:not(:last-child){
+    margin-right:30px;
+}
+.regular-custumers-link{
+    color:#AFB1B8;
+    width: 170px;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #AFB1B8;
+    border-radius: 4%;
+    background: rgba(255, 255, 255, 0.1);
+}
