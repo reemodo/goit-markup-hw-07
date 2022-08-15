@@ -416,9 +416,8 @@ address {
     border-color: #2196F3;
 }
 .service-icon{
-    width: 70px;
-    height: 70px;
-    padding: 25px 100px ;
+    width: 270px;
+    height: 120px;
     background: #F5F4FA;
     border-radius: 4px;
     margin-bottom: 30px;
