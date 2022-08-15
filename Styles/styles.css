@@ -250,6 +250,9 @@ address {
 .socil-icon:not(:last-child){
     margin-right: 10px;
 }
+.socil-icon:hover{
+    color: #188CE8;
+}
 .product-title{
     margin: 0px;
     font-weight: 700;
