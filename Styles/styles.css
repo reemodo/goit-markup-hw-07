@@ -257,8 +257,10 @@ address {
     border-radius: 100%;
 }
 .socil-icon-link:hover{
-    fill: white;
     background-color: #2196F3;
+}
+.socil-icon-link:hover svg, .socil-icon-link:focus svg{
+    fill: white;
 }
 .socil-icon:not(:last-child){
     margin-right: 10px;
