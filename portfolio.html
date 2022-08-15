@@ -16,19 +16,32 @@
                             <a class=" link nav-links   " href="index.html">Studio</a>
                         </li>
                         <li class="nav-links-item">
-                            <a class="link nav-links nav-links-current" href="portfolio.html">Portfolio</a>
+                            <a class="link nav-links nav-links-current " href="portfolio.html">Portfolio</a>
                         </li>
                         <li class="nav-links-item">
-                            <a class=" link nav-links " href="https://google.com">Contacts</a>
+                            <a class=" link nav-links  " href="https://google.com">Contacts</a>
                         </li>
                     </ul>
                 </nav>
                 <ul class="list nav-contats">
                     <li class="nav-links-item">
-                        <a href="mailto:info@devstudio.com" class="link  nav-contats-links">info@devstudio.com</a>
+                        <a href="mailto:info@devstudio.com" class="link  nav-contats-links">
+                            <svg class="contact-icons" style="width: 16px; height:12px; ">
+                                <use href="images/icons.svg#envelope">
+                                </use>
+                            </svg>
+                            info@devstudio.com
+                        </a>
                     </li>
                     <li class="nav-links-item">
-                        <a href="tel:+38 096 111 11 11" class="link nav-contats-links">+38 096 111 11 11</a>
+                        
+                        <a href="tel:+38 096 111 11 11" class="link nav-contats-links">
+                            <svg class="contact-icons" style="width: 10px; height:16px; ">
+                                <use href="images/icons.svg#smartphone">
+                                </use>
+                            </svg>
+                            +38 096 111 11 11
+                        </a>
                     </li>
                 </ul>
             </div>
@@ -61,7 +74,7 @@
                                 <P class="product-description">Web-Site</P>
                             </div>
                             
-                            </li>
+                        </li>
 
                         <li class="product-item">
                             <img src="images/products/product2.jpg"/>
@@ -137,26 +150,66 @@
         </main>
         <footer class="footer" >
             <div class="container container-footer">
-                <a href="" class="link nav-logo-text footer-logo">WebStudio</a>
-                <address >
-                    <ul class="list ">
-                        <li>
-                            <a href=""  class="link footer-contacts">695 Park Ave, New York, NY 10065,<br> United States</a>
-                        
-                        </li>
-                        <li>
+                <div class="footer-items">
+                    <a href="" class="link nav-logo-text footer-logo">WebStudio</a>
+                    <address >
+                        <ul class="list">
+                            <li>
+                                <a href=""  class="link footer-contacts">695 Park Ave, New York, NY 10065,<br> United States</a>
+                            
+                            </li>
+                            <li>
+                                
+                                <a href="mailto:info@example.com" class="link footer-contacts ">info@example.com</a>
+                                
+                            </li>
+                            <li>
+                            
+                                <a href="tel:+1 212-772-4150" class="link footer-contacts"> +1 212-772-4150</a>
+                                
+                            </li>
+                        </ul>
+                    </address>
+                </div>
                 
-                            <a href="mailto:info@example.com" class="link footer-contacts ">info@example.com</a>
-                            
+                <div>
+                    <p class="find-us-text">FIND US ON</p>
+                    <ul class="list find-us-icons-list">
+                        <li class="find-us-icon">
+                            <a href="" class="link find-us-icon-link">
+                                <svg  style="width:20px;height: 20px;" ><!--pop  background: rgba(255, 255, 255, 0.1);"-->
+                                    <use href="images/icons.svg#icon-instagram">
+                                    </use>
+                                </svg>
+                            </a>
                         </li>
-                        <li>
-                        
-                            <a href="tel:+1 212-772-4150" class="link footer-contacts"> +1 212-772-4150</a>
-                            
+                        <li class="find-us-icon">
+                            <a href="" class="link find-us-icon-link">
+                                <svg  style="width:20px;height: 20px;" ><!--pop  fill="#afb1b8"-->
+                                    <use href="images/icons.svg#twitter">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="find-us-icon">
+                            <a href="" class="link find-us-icon-link">
+                                <svg  style="width:20px;height: 20px;" ><!--pop  fill="#afb1b8"-->
+                                    <use href="images/icons.svg#facebook">
+                                    </use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="find-us-icon">
+                            <a href="" class="link find-us-icon-link">
+                                <svg  style="width:20px;height: 20px;" ><!--pop  fill="#afb1b8"-->
+                                    <use href="images/icons.svg#linkedin">
+                                    </use>
+                                </svg>
+                            </a>
                         </li>
                     </ul>
-                </address>
-            </div>
+                </div>
+        </div>
         </footer>
     </body>
 </html>
