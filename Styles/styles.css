@@ -242,14 +242,14 @@ address {
     margin-bottom: 30px;
 }
 
-.socil-icons-list{
+.social-icons-list{
     display: flex;
     margin:  auto 30px;
 }
-.socil-icon-link svg{
+.social-icon-link svg{
     fill: currentColor;
 }
-.socil-icon-link{
+.social-icon-link{
     color: #afb1b8;
     width: 44px;
     height: 44px;
@@ -259,12 +259,12 @@ address {
     border-radius: 100%;
   
 }
-.socil-icon-link:hover{
+.social-icon-link:hover{
     background-color: #2196F3;
     color:white;
 }
 
-.socil-icon:not(:last-child){
+.social-icon:not(:last-child){
     margin-right: 10px;
     
 }
