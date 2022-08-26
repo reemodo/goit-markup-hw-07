@@ -16,7 +16,7 @@ body{
 }
 
 .contact-icons{
-    fill:#757575;
+    fill:currentColor;
     margin-right: 10px ;
 }
 img { 
@@ -84,15 +84,14 @@ address {
     font-weight: 500;
     color: #757575;
     padding: 32px 0px 31px 0px;
-    display: block;
+    display: flex;
+    align-items: center;
 }
 .nav-contats-links:hover, .nav-contats-links:focus{
     color: #2196F3;
     
 }
-.nav-contats-links:hover svg, .nav-contats-links:focus svg{
-    fill:#2196F3;
-}
+
 .nav-links {
     color:#212121;
     font-weight: 500;
@@ -316,6 +315,7 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 20px;
+    margin-top: 10px;
 }
 .find-us-icons-list{
     display: flex;
@@ -358,6 +358,7 @@ address {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .filter-button:hover,.filter-button:focus{
+    outline: none;
     background-color: #2196F3;
     color: white;
 }
@@ -382,8 +383,12 @@ address {
     margin-top: 30px;
     margin-left: 30px;
 }
-.product-item:hover{
+.product-item-link{
+    display: block;
+}
+.product-item-link:hover,.product-item-link:focus{
     background: #FFFFFF;
+    outline: none;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .product-wrapper{
