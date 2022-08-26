@@ -258,7 +258,7 @@ address {
     border-radius: 100%;
   
 }
-.social-icon-link:hover{
+.social-icon-link:hover ,.social-icon-link:focus{
     background-color: #2196F3;
     color:white;
 }
@@ -334,7 +334,7 @@ address {
     border-radius: 100%;
     background: rgba(255, 255, 255, 0.1);
 }
-.find-us-icon-link:hover{
+.find-us-icon-link:hover,.find-us-icon-link:focus {
     background-color: #2196F3;
   
 }
