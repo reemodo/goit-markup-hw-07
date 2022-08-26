@@ -108,14 +108,12 @@ address {
     color: #2196F3;
 }
 .nav-links-current::after {
-    content: "";
   height: 4px;
   width: 100%;
   border-radius: 2px;
   background-color: var(--blue);
   position: absolute;
-  left: 0;
-  bottom: -1px;
+
   }
 .nav-container-item:not(:last-child){
     margin-right: 50px;
