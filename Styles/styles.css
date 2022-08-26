@@ -97,7 +97,10 @@ address {
     font-weight: 500;
     text-decoration: none;
     padding: 32px 0px 31px 0px;
-    display: block;
+
+    transition: 250ms;
+    transition-property: color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-links:hover, .nav-links:focus{
@@ -113,7 +116,8 @@ address {
   border-radius: 2px;
   background-color: var(--blue);
   position: absolute;
-
+  left: 0;
+  bottom: -1px;
   }
 .nav-container-item:not(:last-child){
     margin-right: 50px;
