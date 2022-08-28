@@ -86,6 +86,10 @@ address {
     padding: 32px 0px 31px 0px;
     display: flex;
     align-items: center;
+    transition: 1250ms;
+    transition-property: fill, color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 .nav-contats-links:hover, .nav-contats-links:focus{
     color: #2196F3;
@@ -97,9 +101,8 @@ address {
     font-weight: 500;
     text-decoration: none;
     padding: 32px 0px 31px 0px;
-
     transition: 250ms;
-    transition-property: color;
+    transition-property:  color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -157,6 +160,9 @@ address {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: 250ms;
+    transition-property: fill, color , background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
    
 }
 .hero-container-button:hover, .hero-container-button:focus{
@@ -270,6 +276,9 @@ address {
     align-items: center;
     justify-content: center;
     border-radius: 100%;
+    transition: 250ms;
+    transition-property: fill, color, background-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 .social-icon-link:hover ,.social-icon-link:focus{
@@ -319,6 +328,9 @@ address {
     color: white;
 }
 .footer-contacts{
+    transition: 250ms;
+    transition-property: fill, color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     color: rgba(255, 255, 255, 0.6); 
     line-height: 24px;
 }
@@ -347,10 +359,12 @@ address {
     justify-content: center;
     border-radius: 100%;
     background: rgba(255, 255, 255, 0.1);
+    transition: 250ms;
+    transition-property: background-color, fill ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .find-us-icon-link:hover,.find-us-icon-link:focus {
     background-color: #2196F3;
-  
 }
 
 .find-us-icon:not(:last-child){
@@ -387,6 +401,9 @@ address {
     line-height: 26px;
     font-size: 16px;
     cursor: pointer;
+    transition: 250ms;
+    transition-property: fill, color ,outline, background-color, box-shadow ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .products{
     display: flex;
@@ -400,9 +417,12 @@ address {
 }
 .product-item-link{
     display: block;
+    transition: 250ms;
+    transition-property: fill, color, outline, box-shadow, background-color ;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .product-item-link:hover,.product-item-link:focus{
-    background: #FFFFFF;
+    background-color: #FFFFFF;
     outline: none;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
@@ -431,6 +451,9 @@ address {
     border: 1px solid #AFB1B8;
     border-radius: 4%;
     background: rgba(255, 255, 255, 0.1);
+    transition: 250ms;
+    transition-property: fill, color,  border-color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .regular-customers-link svg{
     fill: currentColor;
