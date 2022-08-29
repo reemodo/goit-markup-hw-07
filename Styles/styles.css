@@ -86,7 +86,7 @@ address {
     padding: 32px 0px 31px 0px;
     display: flex;
     align-items: center;
-    transition: 1250ms;
+    transition: 250ms;
     transition-property: fill, color;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     
@@ -221,6 +221,20 @@ address {
 }
 .what-we-do-item:not(:last-child){
     margin-right: 30px;
+}
+.what-we-do-label{
+    position: relative;
+    padding: 27px 27px;
+    bottom: 69px;
+    text-align: center;
+    /* align-items: center; */
+    background: rgba(47, 48, 58, 0.8);
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    font-weight: 700;
+    line-height: 16px;
 }
 
 .our-team-container {
@@ -420,8 +434,38 @@ address {
     transition: 250ms;
     transition-property: fill, color, outline, box-shadow, background-color ;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
+
+.overflow-layer{
+    position: relative;
+    overflow: hidden;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(33, 150, 243, 0.9);
+    transform: translatey(100%);
+    transition: transform 250ms ;
+    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  
+  .overlay > p {
+    margin:  63px 24px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0.03em;
+  }
+  .product-item-link:hover .overlay{
+    transform: translatey(0);
+  }  
+  
 .product-item-link:hover,.product-item-link:focus{
+
     background-color: #FFFFFF;
     outline: none;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
@@ -472,3 +516,55 @@ address {
     border-radius: 4px;
     margin-bottom: 30px;
 }
+.backdrop{
+  display: flex;
+  background: rgba(0, 0, 0, 0.2);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+}
+.is-hidden{
+    opacity: .0;
+    pointer-events: none;
+    visibility: hidden;
+}
+.modal-container{
+  position: relative;
+  width: 528px;
+  height: 581px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.modal-button {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: #ffffff;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);;
+    transition: 250ms;
+    transition-property: border-color, color;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal-button:hover,
+  .modal-button:focus {
+    color : #2196F3;
+    cursor: pointer;
+  }
+  .modal-button svg {
+    fill: currentColor;
+  }

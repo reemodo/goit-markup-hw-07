@@ -6,8 +6,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"/>  
         <link rel="stylesheet"  href="Styles/styles.css"/>
     </head>
-    <body>
-       
+    <body >
         <header class="headerBorder">
             <div class="container header-container">
                 <nav class="nav-container">
@@ -126,12 +125,25 @@
                     <ul class="list what-we-do-lists">
                         <li class="what-we-do-item">
                             <img src="images/wwd1.jpg" alt="what we do image 1" width="370" class="what-we-do-images"/>
+                            <div class="what-we-do-label">
+                                <p>DESKTOP APPS</p>
+                            </div>
                         </li>
                         <li class="what-we-do-item">
                             <img src="images/wwd2.jpg" alt="what we do image 2" width="370" class="what-we-do-images" />
+                            <div class="what-we-do-label">
+                                <p>
+                                    MOBILE APPS
+                                </p>
+                            </div>
                         </li>
                         <li class="what-we-do-item">
                             <img src="images/wwd3.jpg" alt="what we do image 3" width="370" class="what-we-do-images" />
+                            <div class="what-we-do-label">
+                                <p>
+                                    DESIGN SOLUTIONS
+                                </p>
+                            </div>
                         </li>
                         
                     </ul>
@@ -427,6 +439,17 @@
                     </div>
             </div>
         </footer>
+        <div class="backdrop is-hidden" data-modal>
+
+            <div class="modal-container">  
+                <button class="modal-button " data-modal-close>
+                    <svg width="11" height="11">
+                        <use href="images/icons.svg#close"></use>
+                    </svg>
+                </button>
+            </div>  
+            
+        </div>
         <script src="./js/modal.js"></script>
     </body>
 </html>
