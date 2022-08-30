@@ -622,7 +622,7 @@ justify-content:space-between;
 .input-icon {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
+    transform: translateY(100%);
     left: 15px;
     color: black;
     fill: currentColor;
