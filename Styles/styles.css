@@ -86,9 +86,7 @@ address {
     padding: 32px 0px 31px 0px;
     display: flex;
     align-items: center;
-    transition: 250ms;
-    transition-property: fill, color;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .nav-contats-links:hover, .nav-contats-links:focus{
@@ -101,9 +99,7 @@ address {
     font-weight: 500;
     text-decoration: none;
     padding: 32px 0px 31px 0px;
-    transition: 250ms;
-    transition-property:  color;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav-links:hover, .nav-links:focus{
@@ -160,9 +156,7 @@ address {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    transition: 250ms;
-    transition-property: fill, color , background-color;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
    
 }
 .hero-container-button:hover, .hero-container-button:focus{
@@ -219,15 +213,18 @@ address {
 .what-we-do-lists{
     display: flex;
 }
+.what-we-do-item{
+    position:relative;
+}
 .what-we-do-item:not(:last-child){
     margin-right: 30px;
 }
-.what-we-do-label{
-    position: relative;
+.what-we-do-text{
+    position: absolute;
     padding: 27px 27px;
-    bottom: 69px;
+    bottom: 0px;
+    width: 100%;
     text-align: center;
-    /* align-items: center; */
     background: rgba(47, 48, 58, 0.8);
     text-align: center;
     letter-spacing: 0.03em;
@@ -290,9 +287,7 @@ address {
     align-items: center;
     justify-content: center;
     border-radius: 100%;
-    transition: 250ms;
-    transition-property: fill, color, background-color;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition:   color 250ms cubic-bezier(0.4, 0, 0.2, 1),    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 .social-icon-link:hover ,.social-icon-link:focus{
@@ -342,9 +337,7 @@ address {
     color: white;
 }
 .footer-contacts{
-    transition: 250ms;
-    transition-property: fill, color;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: rgba(255, 255, 255, 0.6); 
     line-height: 24px;
 }
@@ -373,9 +366,7 @@ address {
     justify-content: center;
     border-radius: 100%;
     background: rgba(255, 255, 255, 0.1);
-    transition: 250ms;
-    transition-property: background-color, fill ;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .find-us-icon-link:hover,.find-us-icon-link:focus {
     background-color: #2196F3;
@@ -415,9 +406,7 @@ address {
     line-height: 26px;
     font-size: 16px;
     cursor: pointer;
-    transition: 250ms;
-    transition-property: fill, color ,outline, background-color, box-shadow ;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  color  250ms cubic-bezier(0.4, 0, 0.2, 1),    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),   box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .products{
     display: flex;
@@ -431,9 +420,7 @@ address {
 }
 .product-item-link{
     display: block;
-    transition: 250ms;
-    transition-property: fill, color, outline, box-shadow, background-color ;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition:     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),   box-shadow  250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 
@@ -449,8 +436,7 @@ address {
     height: 100%;
     background: rgba(33, 150, 243, 0.9);
     transform: translatey(100%);
-    transition: transform 250ms ;
-    transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);
+    transition:   transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
   
   .overlay > p {
@@ -495,9 +481,7 @@ address {
     border: 1px solid #AFB1B8;
     border-radius: 4%;
     background: rgba(255, 255, 255, 0.1);
-    transition: 250ms;
-    transition-property: fill, color,  border-color;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1) ,    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .regular-customers-link svg{
     fill: currentColor;
@@ -526,7 +510,9 @@ address {
   left: 0;
   align-items: center;
   justify-content: center;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  opacity: 100%;
+  visibility: visible;
+  transition:  opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),  visibility 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
 
 }
 .is-hidden{
@@ -552,9 +538,7 @@ address {
     height: 30px;
     border-radius: 100%;
     border: 1px solid rgba(0, 0, 0, 0.1);;
-    transition: 250ms;
-    transition-property:fill, color;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition:  color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     color: black;
     display: flex;
     justify-content: center;
@@ -568,3 +552,67 @@ address {
   .modal-button svg {
     fill: currentColor;
   }
+  .order-form-title{
+    font-size: 20px;
+line-height: 23px;
+text-align: center;
+letter-spacing: 0.03em;
+margin-bottom: 12px;
+color: #212121;
+  }
+  .order-form{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 40px 40px;
+  }
+ .order-form-item{
+    margin-bottom: 10px;
+ }
+ .order-form-text{
+    padding-bottom: 4px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #757575;
+ }
+ .order-form-field{
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+ }
+ .order-form-textarea{
+    padding: 12px 16px;
+    width: 100%;
+    height: 120px;
+   
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+ }
+ .order-form-button{
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    background-color: #2196F3;
+    padding: 10px 20px 10px 20px;
+    color: white;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ }
+.order-form-checkbox-section{
+margin-top: 10px;
+margin-bottom: 30px;
+display: flex;
+justify-content:space-between;
+
+ }
+ input[type="checkbox"] {
+    margin-right: 10px;
+}
