@@ -595,7 +595,7 @@ color: #212121;
         outline: none;
  }
 
- .order-form-field  .input-icon{
+ .order-form-field  ~ .input-icon{
     fill:currentColor;
  }
  .order-form-textarea{
