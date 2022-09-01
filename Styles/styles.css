@@ -595,7 +595,7 @@ color: #212121;
         outline: none;
  }
 
- .order-form-field:hover  ~ .input-icon .order-form-field:focus ~ .input-icon{
+ .order-form-field:hover  ~ .input-icon, .order-form-field:focus ~ .input-icon{
     color:#2196F3;
  }
  
