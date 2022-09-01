@@ -595,7 +595,7 @@ color: #212121;
         outline: none;
  }
 
- .order-form-field svg{
+ .order-form-field  .input-icon{
     fill:currentColor;
  }
  .order-form-textarea{
@@ -635,7 +635,6 @@ display: flex;
 .input-icon {
     position: absolute;
     top: 50%;
-    transform: translateY(-50%);
     left: 15px;
   }
   
